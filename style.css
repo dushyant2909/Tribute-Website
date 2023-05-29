@@ -60,11 +60,7 @@
 #footer{
     text-align: end;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 544px) {
-=======
 @media screen and (max-width: 600px) {
->>>>>>> 64f14942cd568316c7004994ab9308c029575bb3
     #container{
         /* background-color: blue; */
         width: fit-content;

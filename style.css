@@ -7,9 +7,7 @@
     background-color: #e5e5fd;
 }
 #content{
-    /* background-color: lightgoldenrodyellow; */
     margin: 100px 200px;
-    /* margin-right: 250px; */
 }
 #apjImage{
     width: 300px;
@@ -61,4 +59,66 @@
 }
 #footer{
     text-align: end;
+}
+@media screen and (max-width: 600px) {
+    #container{
+        /* background-color: blue; */
+        width: fit-content;
+    }
+    #content{
+        margin: 7px;
+        /* background-color: black; */
+        width: fit-content;
+    }
+    #apjImage{
+        width: 100px;
+        height: 117px;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-left: -7px;
+        border: 2px solid black;
+    }
+    #topPart{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #name{
+        color: #1d1e4c;
+        letter-spacing: 2px;
+    }
+    #nameDate{
+        margin-left: 15px;
+        margin-top: 2px;
+        text-align: right;
+    }
+    #nameDate h1{
+        font-size: 18px;
+    }
+    #missileMan{
+        font-size: 30px;
+        font-weight: 320;
+        margin-bottom: 18px;
+    }
+    #aboutText{
+        padding: 0px 5px;
+        word-spacing: 10px;
+        text-align: justify;
+    }
+    #biography{
+        margin: 20px 2px;
+    }
+    #biography h3 {
+        margin-bottom: 14px;
+    }
+    #biography ul {
+        margin-left: 10px;
+    }
+    #biography li {
+        margin-bottom: 12px;
+    }
+    #footer{
+        text-align: center;
+    }
 }
